@@ -29,8 +29,8 @@ public class ServicoCliente {
                 ).collect(Collectors.toList());
 
         clientes = Stream.of(
-                ClienteDTO.builder().id(1).nome("Jean").idade(21).telefone("(18) 99694-6472").limiteCredito(350.25).pais(paises.get(0)).build(),
-                ClienteDTO.builder().id(2).nome("Silvia").idade(49).telefone("(18) 00000-0000").limiteCredito(470.25).pais(paises.get(0)).build(),
+                ClienteDTO.builder().id(1).nome("Jean Carlos").idade(21).telefone("(18) 99694-6472").limiteCredito(350.25).pais(paises.get(0)).build(),
+                ClienteDTO.builder().id(2).nome("Silvia Ap").idade(49).telefone("(18) 00000-0000").limiteCredito(470.25).pais(paises.get(0)).build(),
                 ClienteDTO.builder().id(3).nome("José").idade(50).telefone("(18) 111111-1111").limiteCredito(987.25).pais(paises.get(0)).build(),
                 ClienteDTO.builder().id(4).nome("Vitória").idade(22).telefone("(18) 22222-2222").limiteCredito(525.25).pais(paises.get(0)).build()
                 ).collect(Collectors.toList());
